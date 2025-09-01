@@ -1,8 +1,9 @@
 // import Basic from "./components/Basic";
 // import KeyFrames from "./components/KeyFrames";
-
-import BouncingLoader from "./components/examples/BouncingLoader";
+// import Variants from "./components/Variants";
+// import BouncingLoader from "./components/examples/BouncingLoader";
 // import PulsingButton from "./components/examples/PulsingButton";
+import FlippingCard from "./components/examples/FlippingCard";
 
 
 const App = () => {
@@ -11,7 +12,9 @@ const App = () => {
        {/* <Basic /> */}
        {/* <KeyFrames /> */}
        {/* <PulsingButton /> */}
-       <BouncingLoader />
+       {/* <BouncingLoader /> */}
+       {/* <Variants /> */}
+       <FlippingCard />
     </div>
   )
 }
