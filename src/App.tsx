@@ -1,7 +1,8 @@
 // import Basic from "./components/Basic";
 // import KeyFrames from "./components/KeyFrames";
 
-import PulsingButton from "./components/examples/PulsingButton";
+import BouncingLoader from "./components/examples/BouncingLoader";
+// import PulsingButton from "./components/examples/PulsingButton";
 
 
 const App = () => {
@@ -9,7 +10,8 @@ const App = () => {
     <div>
        {/* <Basic /> */}
        {/* <KeyFrames /> */}
-       <PulsingButton />
+       {/* <PulsingButton /> */}
+       <BouncingLoader />
     </div>
   )
 }
