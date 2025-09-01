@@ -3,7 +3,10 @@
 // import Variants from "./components/Variants";
 // import BouncingLoader from "./components/examples/BouncingLoader";
 // import PulsingButton from "./components/examples/PulsingButton";
-import FlippingCard from "./components/examples/FlippingCard";
+// import FlippingCard from "./components/examples/FlippingCard";
+
+import AnimatedCard from "./components/examples/AnimatedCard";
+// import Gestures from "./components/Gestures";
 
 
 const App = () => {
@@ -14,7 +17,9 @@ const App = () => {
        {/* <PulsingButton /> */}
        {/* <BouncingLoader /> */}
        {/* <Variants /> */}
-       <FlippingCard />
+       {/* <FlippingCard /> */}
+       {/* <Gestures /> */}
+       <AnimatedCard />
     </div>
   )
 }
